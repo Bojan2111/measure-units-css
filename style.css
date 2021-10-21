@@ -1,0 +1,114 @@
+body {
+  font-size: 16px;
+  background: #434343;
+  color: #cdcdcd;
+}
+
+.description {
+  font-family: monospace;
+  display: flex;
+  flex-direction: row;
+}
+
+.abs-units {
+  background: darkolivegreen;
+}
+
+.rel-units {
+  background: darkslateblue;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.abs-wrapper {
+  margin-bottom: 10px;
+}
+
+.rel-wrapper {
+  font-size: 10px;
+}
+
+.sample {
+  background: #493;
+}
+
+#cm {
+  font-size: 3cm;
+  width: 10cm;
+  height: 10cm;
+}
+#mm {
+  font-size: 3mm;
+  width: 10mm;
+  height: 10mm;
+}
+#in {
+  font-size: 3in;
+  width: 10in;
+  height: 10in;
+}
+#px {
+  font-size: 3px;
+  width: 10px;
+  height: 10px;
+}
+#pt {
+  font-size: 3pt;
+  width: 10pt;
+  height: 10pt;
+}
+#pc {
+  font-size: 3pc;
+  width: 10pc;
+  height: 10pc;
+}
+#em {
+  font-size: 3em;
+  width: 10em;
+  height: 10em;
+}
+#ex {
+  font-size: 3ex;
+  width: 10ex;
+  height: 10ex;
+}
+#ch {
+  font-size: 3ch;
+  width: 10ch;
+  height: 10ch;
+}
+#rem {
+  font-size: 3rem;
+  width: 10rem;
+  height: 10rem;
+}
+#vw {
+  font-size: 3vw;
+  width: 10vw;
+  height: 10vw;
+}
+#vh {
+  font-size: 3vh;
+  width: 10vh;
+  height: 10vh;
+}
+#vmin {
+  font-size: 3vmin;
+  width: 10vmin;
+  height: 10vmin;
+}
+#vmax {
+  font-size: 3vmax;
+  width: 10vmax;
+  height: 10vmax;
+}
+#perc {
+  font-size: 3%;
+  width: 10%;
+  height: 10%;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Testing CSS measure units</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+  <script src='script.js'></script>
+</head>
+<body>
+  <div class="description">
+    <div class="abs-units">
+      <h2>Absolute Units</h2>
+      <ul>
+        <li>cm centimeters</li>
+        <li>mm millimeters</li>
+        <li>in inches (1in = 96px = 2.54cm)</li>
+        <li>px * pixels (1px = 1/96th of 1in)</li>
+        <li>pt points (1pt = 1/72 of 1in)</li>
+        <li>pc picas (1pc = 12 pt)</li>
+      </ul>
+    </div>
+    <div class="rel-units">
+      <h2>Relative units</h2>
+      <ul>
+        <li>em Relative to the font-size of the element (2em means 2 times the size of the current font)</li>
+        <li>ex Relative to the x-height of the current font (rarely used)</li>
+        <li>ch Relative to the width of the "0" (zero)</li>
+        <li>rem Relative to font-size of the root element</li>
+        <li>vw Relative to 1% of the width of the viewport*</li>
+        <li>vh Relative to 1% of the height of the viewport*</li>
+        <li>vmin Relative to 1% of viewport's* smaller dimension</li>
+        <li>vmax Relative to 1% of viewport's* larger dimension</li>
+        <li>% Relative to the parent element</li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrapper abs-wrap">
+    <div class="sample" id="cm">cm</div>
+    <div class="sample" id="mm">mm</div>
+    <div class="sample" id="in">in</div>
+    <div class="sample" id="px">px</div>
+    <div class="sample" id="pt">pt</div>
+    <div class="sample" id="pc">pc</div>
+  </div>
+  <div class="wrapper rel-wrap">
+    <div class="sample" id="em">em</div>
+    <div class="sample" id="ex">ex</div>
+    <div class="sample" id="ch">ch</div>
+    <div class="sample" id="rem">rem</div>
+    <div class="sample" id="vw">vw</div>
+    <div class="sample" id="vh">vh</div>
+    <div class="sample" id="vmin">vmin</div>
+    <div class="sample" id="vmax">vmax</div>
+    <div class="sample" id="perc">%</div>
+  </div>
+</body>
+</html>
